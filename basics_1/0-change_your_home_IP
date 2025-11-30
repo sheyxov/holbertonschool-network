@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Configure host resolution as required
 
 # Replace localhost entry
