@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 # Displays all listening TCP/UDP and UNIX ports with the program names
 
-echo "Active Internet connections (only servers)"
-sudo ss -ltnup
-
-echo "Active UNIX domain sockets (only servers)"
-sudo ss -lxunp
+sudo netstat -tunlp
+sudo netstat -lxnp
